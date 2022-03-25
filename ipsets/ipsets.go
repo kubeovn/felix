@@ -128,11 +128,14 @@ func (s *IPSets) AddOrReplaceIPSet(setMetadata IPSetMetadata, members []string) 
 		pendingAdds:      set.New(),
 		pendingDeletions: set.New(),
 	}
-	s.ipSetIDToIPSet[setID] = ipSet
-	s.mainIPSetNameToIPSet[ipSet.MainIPSetName] = ipSet
+	if oldSet := s.ipSetIDToIPSet[setID]; oldSet == nil || !ipSet.pendingReplace.Equals(oldSet.members) {
+		// kube-ovn calls AddOrReplaceIPSet() only, so it's safe
+		s.ipSetIDToIPSet[setID] = ipSet
+		s.mainIPSetNameToIPSet[ipSet.MainIPSetName] = ipSet
 
-	// Mark IP set dirty so ApplyUpdates() will rewrite it.
-	s.dirtyIPSetIDs.Add(setID)
+		// Mark IP set dirty so ApplyUpdates() will rewrite it.
+		s.dirtyIPSetIDs.Add(setID)
+	}
 
 	// The IP set may have been previously queued for deletion, undo that.
 	s.pendingIPSetDeletions.Discard(ipSet.MainIPSetName)
