@@ -20,7 +20,7 @@ import (
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"
 
-	"github.com/alauda/felix/markbits"
+	"github.com/kubeovn/felix/markbits"
 )
 
 const (

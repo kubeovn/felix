@@ -26,9 +26,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/vishvananda/netlink"
 
-	"github.com/alauda/felix/conntrack"
-	"github.com/alauda/felix/ifacemonitor"
-	"github.com/alauda/felix/ip"
+	"github.com/kubeovn/felix/conntrack"
+	"github.com/kubeovn/felix/ifacemonitor"
+	"github.com/kubeovn/felix/ip"
 	"github.com/projectcalico/libcalico-go/lib/set"
 )
 

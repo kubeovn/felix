@@ -15,7 +15,7 @@
 package rules_test
 
 import (
-	. "github.com/alauda/felix/rules"
+	. "github.com/kubeovn/felix/rules"
 
 	"fmt"
 
@@ -23,9 +23,9 @@ import (
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"
 
-	"github.com/alauda/felix/ipsets"
-	"github.com/alauda/felix/iptables"
-	"github.com/alauda/felix/proto"
+	"github.com/kubeovn/felix/ipsets"
+	"github.com/kubeovn/felix/iptables"
+	"github.com/kubeovn/felix/proto"
 )
 
 var _ = Describe("Dispatch chains", func() {

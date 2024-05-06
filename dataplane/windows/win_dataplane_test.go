@@ -20,8 +20,8 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/alauda/felix/config"
-	"github.com/alauda/felix/dataplane/windows"
+	"github.com/kubeovn/felix/config"
+	"github.com/kubeovn/felix/dataplane/windows"
 )
 
 var _ = Describe("Constructor test", func() {

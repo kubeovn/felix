@@ -25,7 +25,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/vishvananda/netlink"
 
-	"github.com/alauda/felix/ifacemonitor"
+	"github.com/kubeovn/felix/ifacemonitor"
 	"github.com/projectcalico/libcalico-go/lib/set"
 
 	. "github.com/onsi/ginkgo"

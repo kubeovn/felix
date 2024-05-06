@@ -28,7 +28,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/vishvananda/netlink"
 
-	"github.com/alauda/felix/fv/utils"
+	"github.com/kubeovn/felix/fv/utils"
 )
 
 const usage = `test-workload, test workload for Felix FV testing.

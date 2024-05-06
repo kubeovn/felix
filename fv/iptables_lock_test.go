@@ -29,7 +29,7 @@ import (
 	. "github.com/onsi/gomega"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/alauda/felix/fv/utils"
+	"github.com/kubeovn/felix/fv/utils"
 )
 
 var _ = Describe("with running container", func() {

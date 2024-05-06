@@ -15,7 +15,7 @@
 package hashutils_test
 
 import (
-	. "github.com/alauda/felix/hashutils"
+	. "github.com/kubeovn/felix/hashutils"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

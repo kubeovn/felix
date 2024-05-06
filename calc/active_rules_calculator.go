@@ -19,9 +19,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/alauda/felix/dispatcher"
-	"github.com/alauda/felix/labelindex"
-	"github.com/alauda/felix/multidict"
+	"github.com/kubeovn/felix/dispatcher"
+	"github.com/kubeovn/felix/labelindex"
+	"github.com/kubeovn/felix/multidict"
 	"github.com/projectcalico/libcalico-go/lib/backend/api"
 	"github.com/projectcalico/libcalico-go/lib/backend/model"
 	"github.com/projectcalico/libcalico-go/lib/selector"

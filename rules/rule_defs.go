@@ -21,10 +21,10 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/alauda/felix/config"
-	"github.com/alauda/felix/ipsets"
-	"github.com/alauda/felix/iptables"
-	"github.com/alauda/felix/proto"
+	"github.com/kubeovn/felix/config"
+	"github.com/kubeovn/felix/ipsets"
+	"github.com/kubeovn/felix/iptables"
+	"github.com/kubeovn/felix/proto"
 	"github.com/projectcalico/libcalico-go/lib/numorstring"
 )
 

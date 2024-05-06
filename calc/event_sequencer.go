@@ -21,11 +21,11 @@ import (
 
 	"fmt"
 
-	"github.com/alauda/felix/config"
-	"github.com/alauda/felix/ip"
-	"github.com/alauda/felix/labelindex"
-	"github.com/alauda/felix/multidict"
-	"github.com/alauda/felix/proto"
+	"github.com/kubeovn/felix/config"
+	"github.com/kubeovn/felix/ip"
+	"github.com/kubeovn/felix/labelindex"
+	"github.com/kubeovn/felix/multidict"
+	"github.com/kubeovn/felix/proto"
 	"github.com/projectcalico/libcalico-go/lib/backend/model"
 	"github.com/projectcalico/libcalico-go/lib/net"
 	"github.com/projectcalico/libcalico-go/lib/set"

@@ -15,13 +15,13 @@
 package iptables_test
 
 import (
-	. "github.com/alauda/felix/iptables"
+	. "github.com/kubeovn/felix/iptables"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"
 
-	"github.com/alauda/felix/proto"
+	"github.com/kubeovn/felix/proto"
 )
 
 var portRanges = []*proto.PortRange{

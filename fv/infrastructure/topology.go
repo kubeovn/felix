@@ -24,7 +24,7 @@ import (
 
 	"regexp"
 
-	"github.com/alauda/felix/fv/containers"
+	"github.com/kubeovn/felix/fv/containers"
 	api "github.com/projectcalico/libcalico-go/lib/apis/v3"
 	client "github.com/projectcalico/libcalico-go/lib/clientv3"
 	"github.com/projectcalico/libcalico-go/lib/errors"

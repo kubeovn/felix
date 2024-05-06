@@ -15,12 +15,12 @@
 package iptables_test
 
 import (
-	. "github.com/alauda/felix/iptables"
+	. "github.com/kubeovn/felix/iptables"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/alauda/felix/rules"
+	"github.com/kubeovn/felix/rules"
 
 	"time"
 

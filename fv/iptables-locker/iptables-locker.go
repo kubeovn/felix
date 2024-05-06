@@ -20,7 +20,7 @@ import (
 	"github.com/docopt/docopt-go"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/alauda/felix/iptables"
+	"github.com/kubeovn/felix/iptables"
 )
 
 const usage = `iptables-locker, test tool for grabbing the iptables lock.

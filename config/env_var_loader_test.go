@@ -15,7 +15,7 @@
 package config_test
 
 import (
-	. "github.com/alauda/felix/config"
+	. "github.com/kubeovn/felix/config"
 
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"

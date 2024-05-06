@@ -23,8 +23,8 @@ import (
 
 	"fmt"
 
-	"github.com/alauda/felix/dispatcher"
-	"github.com/alauda/felix/ip"
+	"github.com/kubeovn/felix/dispatcher"
+	"github.com/kubeovn/felix/ip"
 	"github.com/projectcalico/libcalico-go/lib/backend/api"
 	"github.com/projectcalico/libcalico-go/lib/backend/model"
 	"github.com/projectcalico/libcalico-go/lib/numorstring"

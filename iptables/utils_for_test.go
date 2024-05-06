@@ -27,7 +27,7 @@ import (
 	. "github.com/onsi/gomega"
 	log "github.com/sirupsen/logrus"
 
-	. "github.com/alauda/felix/iptables"
+	. "github.com/kubeovn/felix/iptables"
 	"github.com/projectcalico/libcalico-go/lib/set"
 )
 

@@ -21,7 +21,7 @@ import (
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"
 
-	. "github.com/alauda/felix/rules"
+	. "github.com/kubeovn/felix/rules"
 )
 
 func init() {

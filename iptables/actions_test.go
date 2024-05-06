@@ -15,7 +15,7 @@
 package iptables_test
 
 import (
-	. "github.com/alauda/felix/iptables"
+	. "github.com/kubeovn/felix/iptables"
 
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"

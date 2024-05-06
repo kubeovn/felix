@@ -15,7 +15,7 @@
 package labelindex_test
 
 import (
-	. "github.com/alauda/felix/labelindex"
+	. "github.com/kubeovn/felix/labelindex"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

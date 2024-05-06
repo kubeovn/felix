@@ -17,8 +17,8 @@ package rules
 import (
 	log "github.com/sirupsen/logrus"
 
-	. "github.com/alauda/felix/iptables"
-	"github.com/alauda/felix/proto"
+	. "github.com/kubeovn/felix/iptables"
+	"github.com/kubeovn/felix/proto"
 )
 
 func (r *DefaultRuleRenderer) StaticFilterTableChains(ipVersion uint8) (chains []*Chain) {

@@ -18,7 +18,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/alauda/felix/k8sfv/leastsquares"
+	"github.com/kubeovn/felix/k8sfv/leastsquares"
 )
 
 var _ = Context("least squares", func() {

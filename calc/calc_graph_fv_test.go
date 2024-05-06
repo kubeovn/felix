@@ -18,8 +18,8 @@
 package calc_test
 
 import (
-	. "github.com/alauda/felix/calc"
-	"github.com/alauda/felix/dataplane/mock"
+	. "github.com/kubeovn/felix/calc"
+	"github.com/kubeovn/felix/dataplane/mock"
 
 	"fmt"
 	"time"
@@ -30,8 +30,8 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"github.com/alauda/felix/config"
-	"github.com/alauda/felix/proto"
+	"github.com/kubeovn/felix/config"
+	"github.com/kubeovn/felix/proto"
 	"github.com/projectcalico/libcalico-go/lib/backend/api"
 	"github.com/projectcalico/libcalico-go/lib/health"
 )

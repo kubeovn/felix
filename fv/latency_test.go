@@ -27,10 +27,10 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/alauda/felix/fv/containers"
-	"github.com/alauda/felix/fv/infrastructure"
-	"github.com/alauda/felix/fv/utils"
-	"github.com/alauda/felix/fv/workload"
+	"github.com/kubeovn/felix/fv/containers"
+	"github.com/kubeovn/felix/fv/infrastructure"
+	"github.com/kubeovn/felix/fv/utils"
+	"github.com/kubeovn/felix/fv/workload"
 	api "github.com/projectcalico/libcalico-go/lib/apis/v3"
 	client "github.com/projectcalico/libcalico-go/lib/clientv3"
 )

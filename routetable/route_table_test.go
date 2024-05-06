@@ -15,7 +15,7 @@
 package routetable_test
 
 import (
-	. "github.com/alauda/felix/routetable"
+	. "github.com/kubeovn/felix/routetable"
 
 	"errors"
 	"fmt"
@@ -30,9 +30,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/vishvananda/netlink"
 
-	"github.com/alauda/felix/ifacemonitor"
-	"github.com/alauda/felix/ip"
-	"github.com/alauda/felix/testutils"
+	"github.com/kubeovn/felix/ifacemonitor"
+	"github.com/kubeovn/felix/ip"
+	"github.com/kubeovn/felix/testutils"
 	"github.com/projectcalico/libcalico-go/lib/set"
 )
 

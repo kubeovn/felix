@@ -24,8 +24,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/alauda/felix/ip"
-	"github.com/alauda/felix/labelindex"
+	"github.com/kubeovn/felix/ip"
+	"github.com/kubeovn/felix/labelindex"
 	"github.com/projectcalico/libcalico-go/lib/set"
 )
 

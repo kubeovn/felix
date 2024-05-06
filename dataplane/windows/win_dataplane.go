@@ -21,11 +21,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/alauda/felix/dataplane/windows/ipsets"
-	"github.com/alauda/felix/dataplane/windows/policysets"
-	"github.com/alauda/felix/jitter"
-	"github.com/alauda/felix/proto"
-	"github.com/alauda/felix/throttle"
+	"github.com/kubeovn/felix/dataplane/windows/ipsets"
+	"github.com/kubeovn/felix/dataplane/windows/policysets"
+	"github.com/kubeovn/felix/jitter"
+	"github.com/kubeovn/felix/proto"
+	"github.com/kubeovn/felix/throttle"
 	"github.com/projectcalico/libcalico-go/lib/health"
 )
 

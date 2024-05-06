@@ -33,8 +33,8 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 
-	"github.com/alauda/felix/fv/containers"
-	"github.com/alauda/felix/fv/utils"
+	"github.com/kubeovn/felix/fv/containers"
+	"github.com/kubeovn/felix/fv/utils"
 	"github.com/projectcalico/libcalico-go/lib/apiconfig"
 	api "github.com/projectcalico/libcalico-go/lib/apis/v3"
 	client "github.com/projectcalico/libcalico-go/lib/clientv3"

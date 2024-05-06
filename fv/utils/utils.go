@@ -26,9 +26,9 @@ import (
 	. "github.com/onsi/gomega"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/alauda/felix/calc"
-	"github.com/alauda/felix/ipsets"
-	"github.com/alauda/felix/rules"
+	"github.com/kubeovn/felix/calc"
+	"github.com/kubeovn/felix/ipsets"
+	"github.com/kubeovn/felix/rules"
 	"github.com/projectcalico/libcalico-go/lib/apiconfig"
 	client "github.com/projectcalico/libcalico-go/lib/clientv3"
 	"github.com/projectcalico/libcalico-go/lib/options"

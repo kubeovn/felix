@@ -18,9 +18,9 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/alauda/felix/calc"
-	"github.com/alauda/felix/dispatcher"
-	"github.com/alauda/felix/proto"
+	"github.com/kubeovn/felix/calc"
+	"github.com/kubeovn/felix/dispatcher"
+	"github.com/kubeovn/felix/proto"
 	"github.com/projectcalico/libcalico-go/lib/backend/api"
 	"github.com/projectcalico/libcalico-go/lib/backend/k8s/conversion"
 	"github.com/projectcalico/libcalico-go/lib/backend/model"

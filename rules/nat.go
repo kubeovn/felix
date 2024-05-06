@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/alauda/felix/iptables"
+	"github.com/kubeovn/felix/iptables"
 )
 
 func (r *DefaultRuleRenderer) MakeNatOutgoingRule(protocol string, action iptables.Action, ipVersion uint8) iptables.Rule {

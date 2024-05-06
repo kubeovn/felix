@@ -20,10 +20,10 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/alauda/felix/hashutils"
-	"github.com/alauda/felix/ipsets"
-	"github.com/alauda/felix/iptables"
-	"github.com/alauda/felix/proto"
+	"github.com/kubeovn/felix/hashutils"
+	"github.com/kubeovn/felix/ipsets"
+	"github.com/kubeovn/felix/iptables"
+	"github.com/kubeovn/felix/proto"
 )
 
 // ruleRenderer defined in rules_defs.go.

@@ -29,7 +29,7 @@ import (
 
 	"github.com/satori/go.uuid"
 
-	"github.com/alauda/felix/fv/utils"
+	"github.com/kubeovn/felix/fv/utils"
 )
 
 const usage = `test-connection: test connection to some target, for Felix FV testing.

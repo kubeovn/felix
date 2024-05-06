@@ -25,8 +25,8 @@ import (
 	. "github.com/onsi/gomega"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/alauda/felix/jitter"
-	"github.com/alauda/felix/proto"
+	"github.com/kubeovn/felix/jitter"
+	"github.com/kubeovn/felix/proto"
 	"github.com/projectcalico/libcalico-go/lib/backend/model"
 	calierrors "github.com/projectcalico/libcalico-go/lib/errors"
 )

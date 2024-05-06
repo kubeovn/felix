@@ -31,8 +31,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/alauda/felix/policysync"
-	"github.com/alauda/felix/proto"
+	"github.com/kubeovn/felix/policysync"
+	"github.com/kubeovn/felix/proto"
 	"github.com/projectcalico/pod2daemon/binder"
 )
 

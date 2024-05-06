@@ -15,7 +15,7 @@
 package calc_test
 
 import (
-	. "github.com/alauda/felix/calc"
+	. "github.com/kubeovn/felix/calc"
 
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"

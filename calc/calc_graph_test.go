@@ -15,7 +15,7 @@
 package calc_test
 
 import (
-	. "github.com/alauda/felix/calc"
+	. "github.com/kubeovn/felix/calc"
 
 	"reflect"
 
@@ -24,9 +24,9 @@ import (
 	. "github.com/onsi/gomega"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/alauda/felix/dataplane/mock"
-	"github.com/alauda/felix/dispatcher"
-	"github.com/alauda/felix/proto"
+	"github.com/kubeovn/felix/dataplane/mock"
+	"github.com/kubeovn/felix/dispatcher"
+	"github.com/kubeovn/felix/proto"
 	"github.com/projectcalico/libcalico-go/lib/backend/api"
 	"github.com/projectcalico/libcalico-go/lib/backend/model"
 	"github.com/projectcalico/libcalico-go/lib/net"

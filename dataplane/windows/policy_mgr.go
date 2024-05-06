@@ -19,8 +19,8 @@ package windataplane
 import (
 	log "github.com/sirupsen/logrus"
 
-	"github.com/alauda/felix/dataplane/windows/policysets"
-	"github.com/alauda/felix/proto"
+	"github.com/kubeovn/felix/dataplane/windows/policysets"
+	"github.com/kubeovn/felix/proto"
 )
 
 // policyManager simply passes through Policy and Profile updates from the datastore to the

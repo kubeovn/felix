@@ -22,8 +22,8 @@ import (
 
 	"github.com/vishvananda/netlink"
 
-	"github.com/alauda/felix/conntrack"
-	"github.com/alauda/felix/ip"
+	"github.com/kubeovn/felix/conntrack"
+	"github.com/kubeovn/felix/ip"
 )
 
 type conntrackIface interface {

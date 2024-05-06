@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/alauda/felix/dataplane/mock"
-	"github.com/alauda/felix/proto"
+	"github.com/kubeovn/felix/dataplane/mock"
+	"github.com/kubeovn/felix/proto"
 	. "github.com/projectcalico/libcalico-go/lib/backend/model"
 )
 

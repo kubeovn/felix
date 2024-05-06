@@ -27,8 +27,8 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/alauda/felix/buildinfo"
-	"github.com/alauda/felix/calc"
+	"github.com/kubeovn/felix/buildinfo"
+	"github.com/kubeovn/felix/calc"
 )
 
 const expectedNumberOfURLParams = 12

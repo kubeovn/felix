@@ -23,7 +23,7 @@ import (
 	"github.com/mipearson/rfw"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/alauda/felix/config"
+	"github.com/kubeovn/felix/config"
 	"github.com/projectcalico/libcalico-go/lib/logutils"
 )
 

@@ -18,9 +18,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/alauda/felix/dispatcher"
-	"github.com/alauda/felix/labelindex"
-	"github.com/alauda/felix/proto"
+	"github.com/kubeovn/felix/dispatcher"
+	"github.com/kubeovn/felix/labelindex"
+	"github.com/kubeovn/felix/proto"
 	"github.com/projectcalico/libcalico-go/lib/backend/api"
 	"github.com/projectcalico/libcalico-go/lib/backend/model"
 	"github.com/projectcalico/libcalico-go/lib/net"

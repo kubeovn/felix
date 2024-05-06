@@ -25,7 +25,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/alauda/felix/k8sfv/leastsquares"
+	"github.com/kubeovn/felix/k8sfv/leastsquares"
 )
 
 var _ = Describe("testing the test code", func() {

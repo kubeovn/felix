@@ -15,7 +15,7 @@
 package stringutils_test
 
 import (
-	. "github.com/alauda/felix/stringutils"
+	. "github.com/kubeovn/felix/stringutils"
 
 	"sort"
 

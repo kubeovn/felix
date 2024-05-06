@@ -22,8 +22,8 @@ import (
 	hns "github.com/Microsoft/hcsshim"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/alauda/felix/dataplane/windows/ipsets"
-	"github.com/alauda/felix/proto"
+	"github.com/kubeovn/felix/dataplane/windows/ipsets"
+	"github.com/kubeovn/felix/proto"
 	"github.com/projectcalico/libcalico-go/lib/set"
 )
 

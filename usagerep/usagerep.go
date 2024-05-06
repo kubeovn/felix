@@ -25,9 +25,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/alauda/felix/buildinfo"
-	"github.com/alauda/felix/calc"
-	"github.com/alauda/felix/jitter"
+	"github.com/kubeovn/felix/buildinfo"
+	"github.com/kubeovn/felix/calc"
+	"github.com/kubeovn/felix/jitter"
 )
 
 const (

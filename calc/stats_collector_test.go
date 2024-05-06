@@ -20,7 +20,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/alauda/felix/calc"
+	. "github.com/kubeovn/felix/calc"
 	"github.com/projectcalico/libcalico-go/lib/backend/api"
 	. "github.com/projectcalico/libcalico-go/lib/backend/model"
 )

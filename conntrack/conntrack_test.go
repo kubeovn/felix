@@ -15,7 +15,7 @@
 package conntrack_test
 
 import (
-	. "github.com/alauda/felix/conntrack"
+	. "github.com/kubeovn/felix/conntrack"
 
 	"errors"
 	"net"

@@ -1,4 +1,4 @@
-package: github.com/alauda/felix
+package: github.com/kubeovn/felix
 homepage: https://projectcalico.org
 license: Apache-2.0
 import:

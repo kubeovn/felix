@@ -20,7 +20,7 @@ import (
 	"os"
 	"time"
 
-	. "github.com/alauda/felix/iptables"
+	. "github.com/kubeovn/felix/iptables"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

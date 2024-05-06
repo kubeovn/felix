@@ -21,7 +21,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/alauda/felix/proto"
+	"github.com/kubeovn/felix/proto"
 )
 
 type MatchCriteria []string

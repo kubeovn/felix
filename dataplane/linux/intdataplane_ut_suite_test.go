@@ -23,7 +23,7 @@ import (
 	"github.com/onsi/ginkgo/reporters"
 	"github.com/sirupsen/logrus"
 
-	"github.com/alauda/felix/logutils"
+	"github.com/kubeovn/felix/logutils"
 	"github.com/projectcalico/libcalico-go/lib/testutils"
 )
 

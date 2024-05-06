@@ -19,8 +19,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/alauda/felix/fv/containers"
-	"github.com/alauda/felix/fv/utils"
+	"github.com/kubeovn/felix/fv/containers"
+	"github.com/kubeovn/felix/fv/utils"
 )
 
 type Felix struct {
